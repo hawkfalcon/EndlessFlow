@@ -1,0 +1,19 @@
+name: EndlessFlow
+version: 0.1
+main: com.hawkfalcon1.EndlessFlow.EndlessFlow
+commands:
+    efon:
+        description: Enables
+        usage: /efon
+        
+    efoff:
+        description: Disables
+        usage: /efoff
+permissions: 
+    EndlessFlow.efon:
+        description: Allows use of /efon
+        default: OP
+        
+    EndlessFlow.efoff:
+        description: Allows use of /efoff
+        default: OP
